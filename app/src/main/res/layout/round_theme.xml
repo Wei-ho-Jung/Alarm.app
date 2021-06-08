@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="106dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/list_background"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/am_pm"
+            android:layout_width="60dp"
+            android:layout_height="94dp"
+            android:text="오전/오후"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:paddingLeft="10dp"
+            android:text="몇시"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textTime2"
+            android:layout_width="110dp"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:text="몇분"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/yoil"
+            android:layout_width="wrap_content"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:text="무슨요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+</LinearLayout>
